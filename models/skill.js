@@ -13,7 +13,7 @@ module.exports = {
 };
 
 function update(id, skill) {
-  skills[id] = skill;
+  skills.splice(id, 1, skill);
 }
 
 function deleteOne(id) {
