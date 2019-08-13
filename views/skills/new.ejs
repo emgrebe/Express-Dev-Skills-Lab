@@ -8,9 +8,10 @@
   <title>Express Dev-Skills Lab</title>
 </head>
 <body>
-  <h1>Skill #<%= skillNum %></h1>
-  <h3><%= skill.skill %></h3>
-  <h3>Complete: <%= skill.done ? 'Yes' : 'No' %></h3>
-  <a href="/skills/<%= idx %>"><%= s.skill %></a>
+  <h1>New Skills</h1>
+  <form action="/skills" method="POST" autocomplete="off">
+    <input type="text" name="skill">
+    <button type="submit">Save Skill</button>
+  </form>
 </body>
 </html>
