@@ -1,11 +1,17 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Gabriela', serif;
   background: url(https://www.dhresource.com/0x0s/f2-albu-g7-M00-93-A3-rBVaSVtrvyeAaAnfAAOkDQeltRA095.jpg/white-gray-marble-textured-photography-backdrop.jpg) fixed;
 }
 
+h1 {
+  text-decoration: underline slategray;
+}
+
 a {
-  color: #9E9262;
+  color: slategray;
+  text-decoration: underline #F7BDBC;
+  font-family: 'Lobster', cursive;
 }
 
 .delete-form {
@@ -13,19 +19,29 @@ a {
   margin-right: 10px;
 }
 
-.delete-form button {
-  color: red;
-}
-
 li {
   display: flex;
   flex-direction: row;
+  background: linear-gradient(to right, lightgray, darkgray);
+  border-radius: 10px;
+  box-shadow: 0 3px 3px 0 #F7BDBC;
   list-style: none;
   text-align: center;
-  margin: 15px;
+  margin: 15px 200px 15px 20px;
 }
 
 button {
-  background-color: #F7BDBC;
+  background-color: slategray;
   margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #F7BDBC;
+}
+
+a, li {
+  font-size: 17px;
+}
+
+body, button {
+  color: #F7BDBC;
 }
