@@ -1,10 +1,11 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(https://www.dhresource.com/0x0s/f2-albu-g7-M00-93-A3-rBVaSVtrvyeAaAnfAAOkDQeltRA095.jpg/white-gray-marble-textured-photography-backdrop.jpg) fixed;
 }
 
 a {
-  color: #00B7FF;
+  color: #9E9262;
 }
 
 .delete-form {
@@ -17,5 +18,14 @@ a {
 }
 
 li {
+  display: flex;
+  flex-direction: row;
   list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+button {
+  background-color: #F7BDBC;
+  margin-right: 10px;
 }
